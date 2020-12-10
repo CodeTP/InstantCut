@@ -29,6 +29,7 @@
 		3ABC9F3E2582721700471A6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3ABC9F402582721700471A6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3ABC9F412582721700471A6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3ABC9F4A258273DE00471A6C /* 1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +62,7 @@
 		3ABC9F2E2582721500471A6C /* InstantCut */ = {
 			isa = PBXGroup;
 			children = (
+				3ABC9F49258273A900471A6C /* TestVideo */,
 				3ABC9F2F2582721500471A6C /* AppDelegate.h */,
 				3ABC9F302582721500471A6C /* AppDelegate.m */,
 				3ABC9F322582721500471A6C /* SceneDelegate.h */,
@@ -74,6 +76,14 @@
 				3ABC9F412582721700471A6C /* main.m */,
 			);
 			path = InstantCut;
+			sourceTree = "<group>";
+		};
+		3ABC9F49258273A900471A6C /* TestVideo */ = {
+			isa = PBXGroup;
+			children = (
+				3ABC9F4A258273DE00471A6C /* 1.mp4 */,
+			);
+			path = TestVideo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
